@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
     private void sendCode() {
         PhoneAuthOptions options =
                 PhoneAuthOptions.newBuilder(FirebaseAuth.getInstance())
-                        .setPhoneNumber("+380675899323")
+                        .setPhoneNumber("+38000000000")
                         .setTimeout(60L, TimeUnit.SECONDS)
                         .setActivity(this)
                         .setCallbacks(mCallbacks)
